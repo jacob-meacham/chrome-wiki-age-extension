@@ -1,0 +1,50 @@
+{
+  "parser": "babel-eslint",
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true,
+    "chrome": true
+  },
+  "ecmaFeatures": {
+    "modules": true
+  },
+  "rules": {
+    "no-unused-vars": [2, {"varsIgnorePattern": "_", "argsIgnorePattern": "_"}],
+    "arrow-spacing": 2,
+    "constructor-super": 2,
+    "generator-star-spacing": 2,
+    "no-class-assign": 2,
+    "no-const-assign": 2,
+    "no-dupe-class-members": 2,
+    "no-var": 2,
+    "object-shorthand": 2,
+    "prefer-arrow-callback": 1,
+    "prefer-const": 2,
+    "prefer-spread": 2,
+    "semi": [2, "always"],
+    "space-before-function-paren": [2, "never"],
+    "consistent-return": 2,
+    "default-case": 2,
+    "dot-notation": 2,
+    "no-invalid-this": 2,
+    "no-undefined": 2,
+    "camelcase": 2,
+    "no-lonely-if": 2,
+    "space-return-throw-case": 2,
+    "no-multi-str": 0,
+    "no-console": 0,
+    "spaced-comment": 0
+  },
+  "extends": [
+    "defaults/rules/eslint/best-practices/airbnb",
+    "defaults/rules/eslint/errors/airbnb",
+    "defaults/rules/eslint/es6/airbnb",
+    "defaults/rules/eslint/legacy/airbnb",
+    "defaults/rules/eslint/node/airbnb",
+    "defaults/rules/eslint/strict/airbnb",
+    "defaults/rules/eslint/style/airbnb",
+    "defaults/rules/eslint/variables/airbnb",
+    "standard"
+  ]
+}
