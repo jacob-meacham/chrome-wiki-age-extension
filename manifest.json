@@ -13,11 +13,14 @@
     "scripts": ["src/reload.js"],
     "persistent": false
   },
+  "permissions": ["tabs"],
   "content_scripts": [
     {
       "matches": [
         "http://en.wikipedia.org/*",
-        "https://en.wikipedia.org/*"
+        "https://en.wikipedia.org/*",
+        "http://www.google.com/*",
+        "https://www.google.com/*"
       ],
       "js": [
         "dist/extension.js"
