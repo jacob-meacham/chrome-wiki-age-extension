@@ -52,3 +52,6 @@ if (birthdayText) {
     });
   });
 }
+
+// Also handle wikipedia age just by removing it.
+$('.ForceAgeToShow').hide();
