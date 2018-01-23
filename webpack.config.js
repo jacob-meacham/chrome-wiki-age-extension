@@ -16,7 +16,7 @@ module.exports = {
         include: [path.resolve(__dirname, 'src')],
         exclude: 'reload.js',
         query: {
-          presets: ['es2015']
+          presets: ['env']
         }
       },
     ],
